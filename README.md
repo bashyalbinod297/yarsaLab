@@ -17,8 +17,8 @@ to run this test :
   - list of test files
   
 Test File Structure 
-  import new
-  testcase 
-  setup method
-  teardown method
-  testcase method
+  * import required packages and library (and variables)
+  * Test Class 
+  * setup method
+  * teardown method
+  * testcase methods
