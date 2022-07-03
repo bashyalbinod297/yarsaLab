@@ -36,7 +36,7 @@ class Test_Wikipedia:
         # time.sleep(5)  # wait for 5 seconds
         assert self.driver.title == search_nepal_page_title
 
-    def test_go_back_to_main_page(self):
+    def test_003_test_go_back_to_main_page(self):
         self.driver.get(page_url)
         main_page = self.driver.find_element(By.XPATH, xpath_main_page)
         main_page.click()
